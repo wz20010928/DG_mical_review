@@ -1,0 +1,678 @@
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 189, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'data/PACS\\PACS/'
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 102, in <module>
+    raise NotImplementedError
+NotImplementedError
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 189, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'data/PACS\\PACS/'
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 189, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'domainbed/data/PACS\\PACS/'
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 189, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: './domainbed/data/PACS/PACS/'
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 189, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: './domainbed/data/PACS/'
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 189, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: './data/PACS/'
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 189, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: './domainbed/data\\PACS/'
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 99, in <module>
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 189, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: './domainbed/data/PACS\\PACS/'
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 175, in <module>
+    algorithm = algorithm_class(dataset.input_shape, dataset.num_classes, len(dataset) - len(args.test_envs), hparams)
+  File "F:\code\DomainBed-main\domainbed\algorithms.py", line 99, in __init__
+    self.featurizer = networks.Featurizer(input_shape, self.hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 241, in Featurizer
+    return ResNet(input_shape, hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 118, in __init__
+    self.network = timm.create_model('resnet50.ram_in1k', pretrained=True)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\timm\models\factory.py", line 78, in create_model
+    raise RuntimeError('Unknown model (%s)' % model_name)
+RuntimeError: Unknown model (resnet50.ram_in1k)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 175, in <module>
+    algorithm = algorithm_class(dataset.input_shape, dataset.num_classes, len(dataset) - len(args.test_envs), hparams)
+  File "F:\code\DomainBed-main\domainbed\algorithms.py", line 99, in __init__
+    self.featurizer = networks.Featurizer(input_shape, self.hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 241, in Featurizer
+    return ResNet(input_shape, hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 118, in __init__
+    self.network = timm.create_model('resnet50.tv_in1k', pretrained=True)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\timm\models\factory.py", line 78, in create_model
+    raise RuntimeError('Unknown model (%s)' % model_name)
+RuntimeError: Unknown model (resnet50.tv_in1k)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 175, in <module>
+    algorithm = algorithm_class(dataset.input_shape, dataset.num_classes, len(dataset) - len(args.test_envs), hparams)
+  File "F:\code\DomainBed-main\domainbed\algorithms.py", line 99, in __init__
+    self.featurizer = networks.Featurizer(input_shape, self.hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 241, in Featurizer
+    return ResNet(input_shape, hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 118, in __init__
+    self.network = timm.create_model('resnet50.tv_in1k', pretrained=True)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\timm\models\factory.py", line 78, in create_model
+    raise RuntimeError('Unknown model (%s)' % model_name)
+RuntimeError: Unknown model (resnet50.tv_in1k)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 175, in <module>
+    algorithm = algorithm_class(dataset.input_shape, dataset.num_classes, len(dataset) - len(args.test_envs), hparams)
+  File "F:\code\DomainBed-main\domainbed\algorithms.py", line 99, in __init__
+    self.featurizer = networks.Featurizer(input_shape, self.hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 241, in Featurizer
+    return ResNet(input_shape, hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 118, in __init__
+    self.network = timm.create_model('hf_hub:timm/resnet50.ram_in1k', pretrained=True)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\timm\models\factory.py", line 72, in create_model
+    hf_default_cfg, model_name = load_model_config_from_hf(model_name)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\timm\models\hub.py", line 84, in load_model_config_from_hf
+    assert has_hf_hub(True)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\timm\models\hub.py", line 58, in has_hf_hub
+    raise RuntimeError(
+RuntimeError: Hugging Face hub model specified but package not installed. Run `pip install huggingface_hub`.
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 175, in <module>
+    algorithm = algorithm_class(dataset.input_shape, dataset.num_classes, len(dataset) - len(args.test_envs), hparams)
+  File "F:\code\DomainBed-main\domainbed\algorithms.py", line 99, in __init__
+    self.featurizer = networks.Featurizer(input_shape, self.hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 241, in Featurizer
+    return ResNet(input_shape, hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 118, in __init__
+    self.network = timm.create_model('hf_hub:timm/resnet50.ram_in1k', pretrained=True)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\timm\models\factory.py", line 72, in create_model
+    hf_default_cfg, model_name = load_model_config_from_hf(model_name)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\timm\models\hub.py", line 84, in load_model_config_from_hf
+    assert has_hf_hub(True)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\timm\models\hub.py", line 58, in has_hf_hub
+    raise RuntimeError(
+RuntimeError: Hugging Face hub model specified but package not installed. Run `pip install huggingface_hub`.
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 211, in <module>
+    for x,y in next(train_minibatches_iterator)]
+StopIteration
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 211, in <module>
+    for x,y in next(train_minibatches_iterator)]
+StopIteration
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 211, in <module>
+    for x,y in next(train_minibatches_iterator)]
+StopIteration
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 271, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 103, in main
+    if args.dataset in vars(datasets):
+NameError: name 'datasets' is not defined
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 180, in main
+    algorithm_class = algorithms.get_algorithm_class(args.algorithm)
+AttributeError: module 'domainbed.algorithms' has no attribute 'get_algorithm_class'
+Traceback (most recent call last):
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\pydevd.py", line 1491, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\PyCharm Community Edition 2022.1.3\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 180, in main
+    algorithm_class = algorithms.get_algorithm_class(args.algorithm)
+AttributeError: module 'domainbed.algorithms' has no attribute 'get_algorithm_class'
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 221, in main
+    step_vals = algorithm.update(minibatches_device, uda_device)
+  File "F:\code\DomainBed-main\domainbed\algorithms.py", line 118, in update
+    loss.backward()
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\autograd\__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 215, in main
+    for x,y in next(train_minibatches_iterator)]
+  File "F:\code\DomainBed-main\domainbed\lib\fast_data_loader.py", line 43, in __iter__
+    yield next(self._infinite_iterator)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 691, in _next_data
+    index = self._next_index()  # may raise StopIteration
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 642, in _next_index
+    return next(self._sampler_iter)  # may raise StopIteration
+  File "F:\code\DomainBed-main\domainbed\lib\fast_data_loader.py", line 12, in __iter__
+    for batch in self.sampler:
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\sampler.py", line 240, in __iter__
+    batch = [next(sampler_iter) for _ in range(self.batch_size)]
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\sampler.py", line 240, in <listcomp>
+    batch = [next(sampler_iter) for _ in range(self.batch_size)]
+KeyboardInterrupt
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 189, in main
+    uda_minibatches_iterator = zip(*uda_loaders)
+KeyboardInterrupt
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 104, in main
+    dataset = vars(datasets)[args.dataset](args.data_dir,
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 239, in __init__
+    super().__init__(self.dir, test_envs, hparams['data_augmentation'], hparams)
+  File "F:\code\DomainBed-main\domainbed\datasets.py", line 189, in __init__
+    environments = [f.name for f in os.scandir(root) if f.is_dir()]
+FileNotFoundError: [WinError 3] 系统找不到指定的路径。: 'F:\\code\\CBIS\\PACS/'
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 238, in main
+    acc = misc.accuracy(algorithm, loader, weights, device)
+  File "F:\code\DomainBed-main\domainbed\lib\misc.py", line 219, in accuracy
+    for x, y in loader:
+  File "F:\code\DomainBed-main\domainbed\lib\fast_data_loader.py", line 106, in __iter__
+    yield next(self._infinite_iterator)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 692, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "F:\code\DomainBed-main\domainbed\lib\misc.py", line 163, in __getitem__
+    return self.underlying_dataset[self.keys[key]]
+  File "F:\code\DomainBed-main\domainbed\lib\misc.py", line 163, in __getitem__
+    return self.underlying_dataset[self.keys[key]]
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\datasets\folder.py", line 232, in __getitem__
+    sample = self.transform(sample)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\transforms.py", line 94, in __call__
+    img = t(img)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\transforms.py", line 349, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\functional.py", line 430, in resize
+    return F_pil.resize(img, size=size, interpolation=pil_interpolation, max_size=max_size)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\functional_pil.py", line 282, in resize
+    return img.resize(size[::-1], interpolation)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\PIL\Image.py", line 2082, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 221, in main
+    step_vals = algorithm.update(minibatches_device, uda_device)
+KeyboardInterrupt
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 238, in main
+    acc = misc.accuracy(algorithm, loader, weights, device)
+  File "F:\code\DomainBed-main\domainbed\lib\misc.py", line 219, in accuracy
+    for x, y in loader:
+  File "F:\code\DomainBed-main\domainbed\lib\fast_data_loader.py", line 106, in __iter__
+    yield next(self._infinite_iterator)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 692, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "F:\code\DomainBed-main\domainbed\lib\misc.py", line 163, in __getitem__
+    return self.underlying_dataset[self.keys[key]]
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\datasets\folder.py", line 232, in __getitem__
+    sample = self.transform(sample)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\transforms.py", line 94, in __call__
+    img = t(img)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\transforms.py", line 1241, in forward
+    img = F.adjust_contrast(img, contrast_factor)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\functional.py", line 839, in adjust_contrast
+    return F_pil.adjust_contrast(img, contrast_factor)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\functional_pil.py", line 84, in adjust_contrast
+    enhancer = ImageEnhance.Contrast(img)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\PIL\ImageEnhance.py", line 67, in __init__
+    mean = int(ImageStat.Stat(image.convert("L")).mean[0] + 0.5)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\PIL\Image.py", line 1030, in convert
+    im = self.im.convert(mode, dither)
+KeyboardInterrupt
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 221, in main
+    step_vals = algorithm.update(minibatches_device, uda_device)
+  File "F:\code\DomainBed-main\domainbed\algorithms.py", line 119, in update
+    self.optimizer.step()
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\optim\optimizer.py", line 109, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\autograd\grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\optim\adam.py", line 157, in step
+    adam(params_with_grad,
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\optim\adam.py", line 213, in adam
+    func(params,
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\optim\adam.py", line 265, in _single_tensor_adam
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad.conj(), value=1 - beta2)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 181, in main
+    algorithm = algorithm_class(dataset.input_shape, dataset.num_classes, len(dataset) - len(args.test_envs), hparams)
+  File "F:\code\DomainBed-main\domainbed\algorithms.py", line 99, in __init__
+    self.featurizer = networks.Featurizer(input_shape, self.hparams)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 243, in Featurizer
+    raise NotImplementedError
+NotImplementedError
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 221, in main
+    step_vals = algorithm.update(minibatches_device, uda_device)
+  File "F:\code\DomainBed-main\domainbed\algorithms.py", line 115, in update
+    loss = F.cross_entropy(self.predict(all_x), all_y)
+  File "F:\code\DomainBed-main\domainbed\algorithms.py", line 124, in predict
+    return self.network(x)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "F:\code\DomainBed-main\domainbed\networks.py", line 146, in forward
+    return self.dropout(self.network(x))
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\resnet.py", line 285, in forward
+    return self._forward_impl(x)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\resnet.py", line 275, in _forward_impl
+    x = self.layer3(x)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\container.py", line 139, in forward
+    input = module(input)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\resnet.py", line 154, in forward
+    out = self.conv3(out)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\conv.py", line 453, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: CUDA out of memory. Tried to allocate 118.00 MiB (GPU 0; 6.00 GiB total capacity; 11.20 GiB already allocated; 0 bytes free; 11.34 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 238, in main
+    acc = misc.accuracy(algorithm, loader, weights, device)
+  File "F:\code\DomainBed-main\domainbed\lib\misc.py", line 219, in accuracy
+    for x, y in loader:
+  File "F:\code\DomainBed-main\domainbed\lib\fast_data_loader.py", line 106, in __iter__
+    yield next(self._infinite_iterator)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 692, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "F:\code\DomainBed-main\domainbed\lib\misc.py", line 163, in __getitem__
+    return self.underlying_dataset[self.keys[key]]
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\datasets\folder.py", line 232, in __getitem__
+    sample = self.transform(sample)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\transforms.py", line 94, in __call__
+    img = t(img)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\transforms.py", line 134, in __call__
+    return F.to_tensor(pic)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\functional.py", line 172, in to_tensor
+    return img.to(dtype=default_float_dtype).div(255)
+KeyboardInterrupt
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 215, in main
+    for x,y in next(train_minibatches_iterator)]
+KeyboardInterrupt
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 272, in <module>
+    main()
+  File "F:\code\DomainBed-main\domainbed\scripts\train.py", line 215, in main
+    for x,y in next(train_minibatches_iterator)]
+  File "F:\code\DomainBed-main\domainbed\lib\fast_data_loader.py", line 43, in __iter__
+    yield next(self._infinite_iterator)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 692, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "F:\code\DomainBed-main\domainbed\lib\misc.py", line 163, in __getitem__
+    return self.underlying_dataset[self.keys[key]]
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\datasets\folder.py", line 232, in __getitem__
+    sample = self.transform(sample)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\transforms.py", line 94, in __call__
+    img = t(img)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\transforms.py", line 349, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\functional.py", line 430, in resize
+    return F_pil.resize(img, size=size, interpolation=pil_interpolation, max_size=max_size)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\transforms\functional_pil.py", line 282, in resize
+    return img.resize(size[::-1], interpolation)
+  File "C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\PIL\Image.py", line 2082, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 146, in main
+    if len(uda):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 160, in main
+    uda_loaders = [InfiniteDataLoader(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 160, in main
+    uda_loaders = [InfiniteDataLoader(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 160, in main
+    uda_loaders = [InfiniteDataLoader(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 160, in main
+    uda_loaders = [InfiniteDataLoader(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 172, in main
+    eval_weights = [None for _, weights in (in_splits + out_splits + uda_splits)]
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 137, in main
+    if hparams['class_balanced']:
+KeyboardInterrupt
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\xxm\.conda\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 221, in main
+    step_vals = algorithm.update(minibatches_device, uda_device)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 272, in <module>
+    main()
+  File "F:/code/DomainBed-main/domainbed/scripts/train.py", line 180, in main
+    algorithm_class = algorithms.get_algorithm_class(args.algorithm)
+KeyboardInterrupt
