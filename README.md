@@ -1,4 +1,4 @@
-# DG_mical_review
+# DG_medical_review
 1.环境在requirement.txt文件中
 
 2.在scripts的train文件中的第二十八行修改数据集地址
